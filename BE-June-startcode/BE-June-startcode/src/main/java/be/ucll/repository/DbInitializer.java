@@ -21,11 +21,9 @@ public class DbInitializer {
 
         User user1 = new User("John Doe", 25, "john.doe@ucll.be");
         User user2 = new User("Jane Toe", 30, "jane.toe@ucll.be");
-        User user3 = new User("Jane Toe", 30, "jane.koe@ucll.be");
 
 
         userRepository.addUser(user1);
         userRepository.addUser(user2);
-        userRepository.addUser(user3);
     }
 }
